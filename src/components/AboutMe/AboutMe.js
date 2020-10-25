@@ -1,4 +1,5 @@
 import React from "react";
+import DevSemilore from "../../assets/img/dev-semilore-cropped.JPG";
 import DevJane02 from "../../assets/img/dev-jane-02.jpg";
 
 const AboutMe = () => {
@@ -26,7 +27,7 @@ const AboutMe = () => {
       </div>
 
       <img
-        src={DevJane02}
+        src={DevSemilore}
         alt="Semilore leaning against a bus"
         className="about-me__img"
       />

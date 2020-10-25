@@ -1,5 +1,6 @@
 import React from "react";
 import DevJane01 from "../../assets/img/dev-jane-01.jpg";
+import DevSemilore01 from "../../assets/img/dev-semilore-01.jpg";
 
 const Intro = () => {
   return (
@@ -11,7 +12,7 @@ const Intro = () => {
         Full Stack Dev
       </p>
       <img
-        src={DevJane01}
+        src={DevSemilore01}
         alt="Semilore Idowu smiling"
         className="intro__img"
       />
