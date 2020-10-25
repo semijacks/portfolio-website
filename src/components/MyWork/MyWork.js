@@ -19,34 +19,34 @@ const MyWork = () => {
       </p>
 
       <div className="portfolio">
-        <a href="#" class="portfolio__item">
+        <a href="https://www.google.com" class="portfolio__item">
           <img src={PortFolio01} alt="" className="portfolio__img" />
         </a>
-        <a href="#" class="portfolio__item">
+        <a href="https://www.google.com" class="portfolio__item">
           <img src={PortFolio02} alt="" className="portfolio__img" />
         </a>
-        <a href="#" class="portfolio__item">
+        <a href="https://www.google.com" class="portfolio__item">
           <img src={PortFolio03} alt="" className="portfolio__img" />
         </a>
-        <a href="#" class="portfolio__item">
+        <a href="https://www.google.com" class="portfolio__item">
           <img src={PortFolio04} alt="" className="portfolio__img" />
         </a>
-        <a href="#" class="portfolio__item">
+        <a href="https://www.google.com" class="portfolio__item">
           <img src={PortFolio05} alt="" className="portfolio__img" />
         </a>
-        <a href="#" class="portfolio__item">
+        <a href="https://www.google.com" class="portfolio__item">
           <img src={PortFolio06} alt="" className="portfolio__img" />
         </a>
-        <a href="#" class="portfolio__item">
+        <a href="https://www.google.com" class="portfolio__item">
           <img src={PortFolio07} alt="" className="portfolio__img" />
         </a>
-        <a href="#" class="portfolio__item">
+        <a href="https://www.google.com" class="portfolio__item">
           <img src={PortFolio08} alt="" className="portfolio__img" />
         </a>
-        <a href="#" class="portfolio__item">
+        <a href="https://www.google.com" class="portfolio__item">
           <img src={PortFolio09} alt="" className="portfolio__img" />
         </a>
-        <a href="#" class="portfolio__item">
+        <a href="https://www.google.com" class="portfolio__item">
           <img src={PortFolio10} alt="" className="portfolio__img" />
         </a>
       </div>

@@ -12,6 +12,7 @@ const Footer = () => {
             className="social-list__link"
             href="https://facebook.com/semijacks.idowu"
             target="_blank"
+            rel="noreferrer"
           >
             <i className="fab fa-facebook"></i>
           </a>
@@ -21,6 +22,7 @@ const Footer = () => {
             className="social-list__link"
             href="https://twitter.com/IAmSemijacks"
             target="_blank"
+            rel="noreferrer"
           >
             <i className="fab fa-twitter"></i>
           </a>
@@ -30,6 +32,7 @@ const Footer = () => {
             className="social-list__link"
             href="https://github.com/semijacks"
             target="_blank"
+            rel="noreferrer"
           >
             <i className="fab fa-github"></i>
           </a>
@@ -39,6 +42,7 @@ const Footer = () => {
             className="social-list__link"
             href="https://dribbble.com/semijacks"
             target="_blank"
+            rel="noreferrer"
           >
             <i className="fab fa-dribbble"></i>
           </a>
