@@ -1,5 +1,5 @@
 import React from "react";
-import DevJane01 from "../../assets/img/dev-jane-01.jpg";
+// import DevJane01 from "../../assets/img/dev-jane-01.jpg";
 import DevSemilore01 from "../../assets/img/dev-semilore-01.jpg";
 
 const Intro = () => {

@@ -3,6 +3,7 @@ import Footer from "../components/Footer/Footer";
 import Portfolio01 from "../assets/img/portfolio-01.jpg";
 import PortfolioDetails from "../assets/img/services-bg.jpg";
 import Devjane from "../assets/img/devjane.png";
+import { HashLink } from "react-router-hash-link";
 
 const openNavBar = () => {
   document.body.classList.toggle("nav-open");
@@ -30,22 +31,42 @@ const PortfolioItem = () => {
           <ul className="nav__list">
             <li className="nav__item">
               <a href="#home" className="nav__link" onClick={closeNavBar}>
-                Home
+                <HashLink
+                  to="/#home"
+                  style={{ textDecoration: "none", color: "var(--light)" }}
+                >
+                  Home
+                </HashLink>
               </a>
             </li>
             <li className="nav__item">
               <a href="#services" className="nav__link" onClick={closeNavBar}>
-                My Services
+                <HashLink
+                  to="/#services"
+                  style={{ textDecoration: "none", color: "var(--light)" }}
+                >
+                  My Services
+                </HashLink>
               </a>
             </li>
             <li className="nav__item">
               <a href="#about" className="nav__link" onClick={closeNavBar}>
-                About Me
+                <HashLink
+                  to="/#about"
+                  style={{ textDecoration: "none", color: "var(--light)" }}
+                >
+                  About Me
+                </HashLink>
               </a>
             </li>
-            <li className="nav__item">
+            <li href="#work" className="nav__item">
               <a href="#work" className="nav__link" onClick={closeNavBar}>
-                My Work
+                <HashLink
+                  to="/#work"
+                  style={{ textDecoration: "none", color: "var(--light)" }}
+                >
+                  My Work
+                </HashLink>
               </a>
             </li>
           </ul>

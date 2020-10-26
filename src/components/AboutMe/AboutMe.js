@@ -1,6 +1,6 @@
 import React from "react";
 import DevSemilore from "../../assets/img/dev-semilore-cropped.JPG";
-import DevJane02 from "../../assets/img/dev-jane-02.jpg";
+// import DevJane02 from "../../assets/img/dev-jane-02.jpg";
 
 const AboutMe = () => {
   return (
