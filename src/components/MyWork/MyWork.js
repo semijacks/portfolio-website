@@ -9,6 +9,7 @@ import PortFolio07 from "../../assets/img/portfolio-07.jpg";
 import PortFolio08 from "../../assets/img/portfolio-08.jpg";
 import PortFolio09 from "../../assets/img/portfolio-09.jpg";
 import PortFolio10 from "../../assets/img/portfolio-10.jpg";
+import { HashLink } from "react-router-hash-link";
 
 const MyWork = () => {
   return (
@@ -19,9 +20,14 @@ const MyWork = () => {
       </p>
 
       <div className="portfolio">
-        <a href="https://www.google.com" class="portfolio__item">
+        {/* <a href="/#home" class="portfolio__item"> */}
+        <HashLink
+          className="portfolio__item"
+          to="/portfolio-item"
+          // style={{ textDecoration: "none", color: "var(--light)" }}
+        >
           <img src={PortFolio01} alt="" className="portfolio__img" />
-        </a>
+        </HashLink>
         <a href="https://www.google.com" class="portfolio__item">
           <img src={PortFolio02} alt="" className="portfolio__img" />
         </a>
