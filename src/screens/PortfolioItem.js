@@ -30,7 +30,7 @@ const PortfolioItem = () => {
         <nav className="nav">
           <ul className="nav__list">
             <li className="nav__item">
-              <a href="" className="nav__link" onClick={closeNavBar}>
+              <a href="#home" className="nav__link" onClick={closeNavBar}>
                 <HashLink
                   to="/#home"
                   style={{ textDecoration: "none", color: "var(--light)" }}
@@ -40,7 +40,7 @@ const PortfolioItem = () => {
               </a>
             </li>
             <li className="nav__item">
-              <a href="" className="nav__link" onClick={closeNavBar}>
+              <a href="#services" className="nav__link" onClick={closeNavBar}>
                 <HashLink
                   to="/#services"
                   style={{ textDecoration: "none", color: "var(--light)" }}
@@ -50,7 +50,7 @@ const PortfolioItem = () => {
               </a>
             </li>
             <li className="nav__item">
-              <a href="" className="nav__link" onClick={closeNavBar}>
+              <a href="#about" className="nav__link" onClick={closeNavBar}>
                 <HashLink
                   to="/#about"
                   style={{ textDecoration: "none", color: "var(--light)" }}
@@ -60,7 +60,7 @@ const PortfolioItem = () => {
               </a>
             </li>
             <li className="nav__item">
-              <a href="" className="nav__link" onClick={closeNavBar}>
+              <a href="#work" className="nav__link" onClick={closeNavBar}>
                 <HashLink
                   to="/#work"
                   style={{ textDecoration: "none", color: "var(--light)" }}
