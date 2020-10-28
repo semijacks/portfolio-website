@@ -19,7 +19,14 @@
   --clr-light: #fff;
   --clr-dark: #303030;
   /* --clr-accent: #f8c15c; */
-  --clr-accent: #85e251;
+  /* --clr-accent: #85e251; */
+  /* --clr-accent: #4daadc; */
+  /* --clr-accent: #85cdca; */
+  /* --clr-accent: #41b3a3; */
+  /* --clr-accent: #8d8741; */
+  /* --clr-accent: #fe442d; */
+  /* --clr-accent: #5cdb95; */
+  --clr-accent: #66fcf1;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
