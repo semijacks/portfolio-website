@@ -14,9 +14,9 @@ import { HashLink } from "react-router-hash-link";
 const MyWork = () => {
   return (
     <section className="my-work" id="work">
-      <h2 className="section__title section__title--work">My Work</h2>
+      <h2 className="section__title section__title--work">🚀My Work</h2>
       <p className="section__subtitle section__subtitle--work">
-        A selection of my range of work
+        📌A selection of my range of work
       </p>
 
       <div className="portfolio">

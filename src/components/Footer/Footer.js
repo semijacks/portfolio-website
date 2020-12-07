@@ -4,17 +4,27 @@ const Footer = () => {
   return (
     <footer className="footer">
       <a href="mailto:semijacks27@gmail.com" className="footer__link">
-        semijacks27@gmail.com
+        📧semijacks27@gmail.com
       </a>
       <ul className="social-list">
         <li className="social-list__item">
           <a
             className="social-list__link"
-            href="https://facebook.com/semijacks.idowu"
+            href="https://linkedin.com/in/semilore-idowu-963518182/"
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fab fa-facebook"></i>
+            <i className="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li className="social-list__item">
+          <a
+            className="social-list__link"
+            href="https://github.com/semijacks"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-github"></i>
           </a>
         </li>
         <li className="social-list__item">
@@ -30,11 +40,11 @@ const Footer = () => {
         <li className="social-list__item">
           <a
             className="social-list__link"
-            href="https://github.com/semijacks"
+            href="https://facebook.com/semijacks.idowu"
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fab fa-github"></i>
+            <i className="fab fa-facebook"></i>
           </a>
         </li>
         <li className="social-list__item">

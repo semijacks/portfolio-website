@@ -1,5 +1,5 @@
 import React from "react";
-import Devjane from "../../assets/img/devjane.png";
+// import Devjane from "../../assets/img/devjane.png";
 
 const Header = () => {
   const openNavBar = () => {
@@ -13,7 +13,8 @@ const Header = () => {
   return (
     <header>
       <div className="logo">
-        <img src={Devjane} alt="logo" />
+        {/* <img src={Devjane} alt="logo" /> */}
+        🚀
       </div>
       <button
         className="nav-toggle"
@@ -26,22 +27,22 @@ const Header = () => {
         <ul className="nav__list">
           <li className="nav__item">
             <a href="#home" className="nav__link" onClick={closeNavBar}>
-              Home
+              🏠Home
             </a>
           </li>
           <li className="nav__item">
             <a href="#services" className="nav__link" onClick={closeNavBar}>
-              My Services
+              👨‍🔧My Services
             </a>
           </li>
           <li className="nav__item">
             <a href="#about" className="nav__link" onClick={closeNavBar}>
-              About Me
+              👦About Me
             </a>
           </li>
           <li className="nav__item">
             <a href="#work" className="nav__link" onClick={closeNavBar}>
-              My Work
+              🚀My Work
             </a>
           </li>
         </ul>

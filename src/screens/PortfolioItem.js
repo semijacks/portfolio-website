@@ -35,7 +35,7 @@ const PortfolioItem = () => {
                   to="/#home"
                   style={{ textDecoration: "none", color: "var(--light)" }}
                 >
-                  Home
+                  🏠Home
                 </HashLink>
               </a>
             </li>
@@ -45,7 +45,7 @@ const PortfolioItem = () => {
                   to="/#services"
                   style={{ textDecoration: "none", color: "var(--light)" }}
                 >
-                  My Services
+                  👨‍🔧My Services
                 </HashLink>
               </a>
             </li>
@@ -55,7 +55,7 @@ const PortfolioItem = () => {
                   to="/#about"
                   style={{ textDecoration: "none", color: "var(--light)" }}
                 >
-                  About Me
+                  👦About Me
                 </HashLink>
               </a>
             </li>
@@ -65,7 +65,7 @@ const PortfolioItem = () => {
                   to="/#work"
                   style={{ textDecoration: "none", color: "var(--light)" }}
                 >
-                  My Work
+                  🚀My Work
                 </HashLink>
               </a>
             </li>
@@ -74,10 +74,10 @@ const PortfolioItem = () => {
       </header>
       <section className="intro" id="home">
         <h1 className="section__title section__title--intro">
-          The title <strong>of my project</strong>{" "}
+          📑The title <strong>of my project</strong>{" "}
         </h1>
         <p className="section__subtitle section__subtitle--intro">
-          A short subitle
+          ✍A short subitle
         </p>
         <img src={Portfolio01} alt="" className="intro__img" />
       </section>

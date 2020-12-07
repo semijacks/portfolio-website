@@ -3,41 +3,34 @@ import React from "react";
 const MyServices = () => {
   return (
     <section className="my-services" id="services">
-      <h2 className="section__title section__title--services">What I do</h2>
+      <h2 className="section__title section__title--services">👨‍🔧What I do</h2>
       <div className="services">
         <div className="service">
-          <h3>Design + Front End Development</h3>
+          <h3>🎯Front End Development</h3>
           <p>
-            Ut minim sunt quis in cillum fugiat proident ullamco tempor
-            voluptate. Sit reprehenderit nulla cupidatat laborum do ex sunt
-            nostrud ullamco. Cupidatat do culpa pariatur amet et id ut labore
-            culpa. Dolor amet id consectetur aliquip. Sint elit mollit in veniam
-            laborum proident pariatur consectetur amet.
+            I build mobile first and responsive web applications using the very
+            versatile ReactJS frontend framework. I also create JAMStack
+            (server-side rendering) applications using NextJS.
           </p>
         </div>
         <div className="service">
-          <h3>Back End Development</h3>
+          <h3>🎯Back End Development</h3>
           <p>
-            Ut minim sunt quis in cillum fugiat proident ullamco tempor
-            voluptate. Sit reprehenderit nulla cupidatat laborum do ex sunt
-            nostrud ullamco. Cupidatat do culpa pariatur amet et id ut labore
-            culpa. Dolor amet id consectetur aliquip. Sint elit mollit in veniam
-            laborum proident pariatur consectetur amet.
+            I develop modern REST APIs using highly in-demand technologies such
+            as ExpressJS (a NodeJS based framework), ApolloGRAPHQL (a framework
+            based on the graphql query language).
           </p>
         </div>
         <div className="service">
-          <h3>E-Commerce</h3>
+          <h3>🎯FullStack Apps</h3>
           <p>
-            Ut minim sunt quis in cillum fugiat proident ullamco tempor
-            voluptate. Sit reprehenderit nulla cupidatat laborum do ex sunt
-            nostrud ullamco. Cupidatat do culpa pariatur amet et id ut labore
-            culpa. Dolor amet id consectetur aliquip. Sint elit mollit in veniam
-            laborum proident pariatur consectetur amet.
+            I build complete apps with modern user interfaces in communication
+            with APIs which equip your app with everything it needs.
           </p>
         </div>
       </div>
       <a href="#work" className="btn">
-        My Work
+        🚀My Work
       </a>
     </section>
   );
