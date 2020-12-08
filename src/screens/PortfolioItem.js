@@ -2,24 +2,17 @@ import React from "react";
 import Footer from "../components/Footer/Footer";
 import Portfolio01 from "../assets/img/portfolio-01.jpg";
 import PortfolioDetails from "../assets/img/services-bg.jpg";
-import Devjane from "../assets/img/devjane.png";
-import { HashLink } from "react-router-hash-link";
+import NavBar from "../components/NavBar/NavBar";
 
 const openNavBar = () => {
   document.body.classList.toggle("nav-open");
-};
-
-const closeNavBar = () => {
-  document.body.classList.remove("nav-open");
 };
 
 const PortfolioItem = () => {
   return (
     <>
       <header>
-        <div className="logo">
-          <img src={Devjane} alt="logo" />
-        </div>
+        <div className="logo">🚀</div>
         <button
           className="nav-toggle"
           aria-label="toggle navigation"
@@ -27,50 +20,7 @@ const PortfolioItem = () => {
         >
           <span className="hamburger"></span>
         </button>
-        <nav className="nav">
-          <ul className="nav__list">
-            <li className="nav__item">
-              <a href="#home" className="nav__link" onClick={closeNavBar}>
-                <HashLink
-                  to="/#home"
-                  style={{ textDecoration: "none", color: "var(--light)" }}
-                >
-                  🏠Home
-                </HashLink>
-              </a>
-            </li>
-            <li className="nav__item">
-              <a href="#services" className="nav__link" onClick={closeNavBar}>
-                <HashLink
-                  to="/#services"
-                  style={{ textDecoration: "none", color: "var(--light)" }}
-                >
-                  👨‍🔧My Services
-                </HashLink>
-              </a>
-            </li>
-            <li className="nav__item">
-              <a href="#about" className="nav__link" onClick={closeNavBar}>
-                <HashLink
-                  to="/#about"
-                  style={{ textDecoration: "none", color: "var(--light)" }}
-                >
-                  👦About Me
-                </HashLink>
-              </a>
-            </li>
-            <li className="nav__item">
-              <a href="#work" className="nav__link" onClick={closeNavBar}>
-                <HashLink
-                  to="/#work"
-                  style={{ textDecoration: "none", color: "var(--light)" }}
-                >
-                  🚀My Work
-                </HashLink>
-              </a>
-            </li>
-          </ul>
-        </nav>
+        <NavBar />
       </header>
       <section className="intro" id="home">
         <h1 className="section__title section__title--intro">

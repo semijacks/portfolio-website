@@ -20,12 +20,7 @@ const MyWork = () => {
       </p>
 
       <div className="portfolio">
-        {/* <a href="/#home" class="portfolio__item"> */}
-        <HashLink
-          className="portfolio__item"
-          to="/portfolio-item"
-          // style={{ textDecoration: "none", color: "var(--light)" }}
-        >
+        <HashLink className="portfolio__item" to="/portfolio-item">
           <img src={PortFolio01} alt="" className="portfolio__img" />
         </HashLink>
         <a href="https://www.google.com" class="portfolio__item">
