@@ -1,17 +1,18 @@
 import React from "react";
 import Footer from "../components/Footer/Footer";
-import Portfolio01 from "../assets/img/portfolio-01.jpg";
+import Portfolio01 from "../assets/img/portfolio-001.jpg";
 import PortfolioDetails from "../assets/img/services-bg.jpg";
-import NavBar from "../components/NavBar/NavBar";
+// import NavBar from "../components/NavBar/NavBar";
+import Header from "../components/Header/Header";
 
-const openNavBar = () => {
-  document.body.classList.toggle("nav-open");
-};
+// const openNavBar = () => {
+//   document.body.classList.toggle("nav-open");
+// };
 
 const PortfolioItem = () => {
   return (
     <>
-      <header>
+      {/* <header>
         <div className="logo">🚀</div>
         <button
           className="nav-toggle"
@@ -21,7 +22,8 @@ const PortfolioItem = () => {
           <span className="hamburger"></span>
         </button>
         <NavBar />
-      </header>
+      </header> */}
+      <Header />
       <section className="intro" id="home">
         <h1 className="section__title section__title--intro">
           📑The title <strong>of my project</strong>{" "}

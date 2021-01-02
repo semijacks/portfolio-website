@@ -1,5 +1,5 @@
 import React from "react";
-import PortFolio01 from "../../assets/img/portfolio-01.jpg";
+import PortFolio01 from "../../assets/img/portfolio-001.jpg";
 import PortFolio02 from "../../assets/img/portfolio-02.jpg";
 import PortFolio03 from "../../assets/img/portfolio-03.jpg";
 import PortFolio04 from "../../assets/img/portfolio-04.jpg";
@@ -20,36 +20,66 @@ const MyWork = () => {
       </p>
 
       <div className="portfolio">
-        <HashLink className="portfolio__item" to="/portfolio-item">
-          <img src={PortFolio01} alt="" className="portfolio__img" />
-        </HashLink>
-        <a href="https://www.google.com" class="portfolio__item">
-          <img src={PortFolio02} alt="" className="portfolio__img" />
-        </a>
-        <a href="https://www.google.com" class="portfolio__item">
-          <img src={PortFolio03} alt="" className="portfolio__img" />
-        </a>
-        <a href="https://www.google.com" class="portfolio__item">
-          <img src={PortFolio04} alt="" className="portfolio__img" />
-        </a>
-        <a href="https://www.google.com" class="portfolio__item">
-          <img src={PortFolio05} alt="" className="portfolio__img" />
-        </a>
-        <a href="https://www.google.com" class="portfolio__item">
-          <img src={PortFolio06} alt="" className="portfolio__img" />
-        </a>
-        <a href="https://www.google.com" class="portfolio__item">
-          <img src={PortFolio07} alt="" className="portfolio__img" />
-        </a>
-        <a href="https://www.google.com" class="portfolio__item">
-          <img src={PortFolio08} alt="" className="portfolio__img" />
-        </a>
-        <a href="https://www.google.com" class="portfolio__item">
-          <img src={PortFolio09} alt="" className="portfolio__img" />
-        </a>
-        <a href="https://www.google.com" class="portfolio__item">
-          <img src={PortFolio10} alt="" className="portfolio__img" />
-        </a>
+        <div className="portfolio__item">
+          {" "}
+          <HashLink to="/portfolio-item">
+            <img src={PortFolio01} alt="" className="portfolio__img" />
+          </HashLink>
+        </div>
+        <div className="portfolio__item">
+          {" "}
+          <HashLink to="/portfolio-item">
+            <img src={PortFolio01} alt="" className="portfolio__img" />
+          </HashLink>
+        </div>
+        <div className="portfolio__item">
+          {" "}
+          <HashLink to="/portfolio-item">
+            <img src={PortFolio01} alt="" className="portfolio__img" />
+          </HashLink>
+        </div>
+        <div className="portfolio__item">
+          {" "}
+          <HashLink to="/portfolio-item">
+            <img src={PortFolio01} alt="" className="portfolio__img" />
+          </HashLink>
+        </div>
+        <div className="portfolio__item">
+          {" "}
+          <HashLink to="/portfolio-item">
+            <img src={PortFolio01} alt="" className="portfolio__img" />
+          </HashLink>
+        </div>
+        <div className="portfolio__item">
+          {" "}
+          <HashLink to="/portfolio-item">
+            <img src={PortFolio01} alt="" className="portfolio__img" />
+          </HashLink>
+        </div>
+        <div className="portfolio__item">
+          {" "}
+          <HashLink to="/portfolio-item">
+            <img src={PortFolio01} alt="" className="portfolio__img" />
+          </HashLink>
+        </div>
+        <div className="portfolio__item">
+          {" "}
+          <HashLink to="/portfolio-item">
+            <img src={PortFolio01} alt="" className="portfolio__img" />
+          </HashLink>
+        </div>
+        <div className="portfolio__item">
+          {" "}
+          <HashLink to="/portfolio-item">
+            <img src={PortFolio01} alt="" className="portfolio__img" />
+          </HashLink>
+        </div>
+        <div className="portfolio__item">
+          {" "}
+          <HashLink to="/portfolio-item">
+            <img src={PortFolio01} alt="" className="portfolio__img" />
+          </HashLink>
+        </div>
       </div>
     </section>
   );
